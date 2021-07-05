@@ -1,80 +1,96 @@
 <html lang="eng">
 
 <head>
-    <title>Grameenphone</title>
+    <title>Day 2</title>
 </head>
 
 <body>
-    <!-- headings from h1 to h6 -->
-    <h1> Helloo world</h1>
-    <h2> I am h2 </h2>
-    <h3> I am h3</h3>
-    <h4> I am h4</h4>
-    <h5> I am h5</h5>
-    <h6> I am h6</h6>
+    <!-- Video  -->
+    <video width="320" height="240" controls auto>
+        <source src="./video/video1.mp4" type="video/mp4" />
 
-    <!-- Pharagraph -->
-    <p>
-        Hello my name is Shourov and <br /><br /> I am a Freelancer.
-        <!-- used br tag to break a line -->
-    </p>
+        Your browser does not support the video tag.
+    </video>
 
-    <!-- using lorem ip -->
-    <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam repudiandae consequuntur nesciunt natus, in
-        molestias! Libero provident cupiditate commodi corrupti aperiam! Nisi illo harum, maxime praesentium sed cum
-        repudiandae dicta!
-    </p>
+    <!-- Audio -->
+    <audio controls>
+        <source src="./audio/audio1.ogg" type="audio/ogg">
+        Your browser does not support the audio tag.
+    </audio>
 
-    <!-- Italic  -->
-    <p>
-        <i> Thanks you so much for everythingt!</i>
-    </p>
 
-    <!-- Bold with strong tag -->
-    <p><strong>Strong</strong></p>
+    <!-- Iframes -->
 
-    <!-- Bold with b tag using u tag to make underline -->
-    <p>
-        I am so <b>Bold</b> because of <u>B</u> tag
-    </p>
+    <!-- Importing a website into our own website -->
+    <iframe width="600px" height="600px"  src="https://developershourov.com/"></iframe>
 
-    <!-- Combining multiple tags -->
-    <p>
-        <i>
-            I am so <b>Bold</b> because of <u>B</u> tag
-        </i>
-    </p>
+    <!-- Import or show google maps using Iframes -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29374.893602740885!2d89.38298440962438!3d23.028849636769255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ffa075cee8c64d%3A0xe5850fe0046ba4fc!2sNoapara%20Bazar%2C%20Noapara%20Paurasava!5e0!3m2!1sen!2sbd!4v1625492936729!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
-    <!-- Using image from internet source -->
-    <img src="https://images.unsplash.com/photo-1593643946890-b5b85ade6451?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=929&q=80"
-        alt="This is a laptop image" height="300px" width="500px" />
+    <!-- Table -->
+    <!-- Basics of Table -->
+    <table border="3px">
+        <th>I am heading</th>
+        <td>Table data</td>
+        <tr>Table row</tr>
+    </table>
 
+    <br />
+
+
+    <!-- making a simple table -->
+    <table border="3px">
+        <tr>
+            <th>Time</th>
+            <th>Class Name</th>
+            <th>Attendee</th>
+        </tr>
+        <tr>
+            <td>8pm</td>
+            <td>Javascript</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>9pm</td>
+            <td>Python</td>
+            <td>3</td>
+        </tr>
+    </table>
     <br />
     <br />
 
-    <!-- using image from our storages in image folder -->
-    <img src="./image/pic1.jpg" alt="Wine pic" height="100px" width="300px" />
+    <!-- complex time table  -->
+    <table border="2px">
+        <!-- heading -->
+        <tr>
+            <th>Day</th>
+            <th>9 Am</th>
+            <th>10 Am</th>
+            <th>11 Am</th>
+            <th>12 Am</th>
+        </tr>
 
-    <br />
-    <br />
+        <tr>
+            <th>Sunday</th>
+            <td>Javascript</td>
+            <td colspan="2">Python</td>
+            <td>html</td>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td>Dart</td>
+            <td>Swift</td>
+            <td>Node</td>
+            <td rowspan="2">Css</td>
+        </tr>
+        <tr>
+            <th>Friday</th>
+            <td>Dart</td>
+            <td colspan="2">Python</td>
+        </tr>
+    </table>
 
-    <!-- using image from our storages in root folder -->
-    <img src="pic2.jpg" alt="Nature pic" height="100px" width="300px" />
 
-    <!-- Combining Image and P tag -->
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, at alias incidunt aspernatur deleniti blanditiis deserunt illo, iste ipsum autem quasi, <img src="pic2.jpg" height="300px" width="300px" alt="Nature pic" /> praesentium cumque vel dicta molestias velit tempora provident eum.
-    </p>
-
-
-    <!-- TODO: Video  -->
-
-    <!-- TODO: Audio -->
-
-    <!-- TODO: Iframes -->
-
-    <!-- TODO: Table -->
 
     <!-- TODO: Forms -->
 
