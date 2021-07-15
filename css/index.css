@@ -1,48 +1,70 @@
-/* .div_two{
-    background-color: red;
-    color: white !important;
-} */
-
-
 *{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-
-/* h1{
-    color: green;
+.hero_section{
+    /* background: url(../assets/background.jpg); */
+    background: linear-gradient(rgba(49, 52, 243, 0.726), rgba(232, 71, 238, 0.733)),url(../assets/background.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    align-items: center;
 }
-
-.exception{
-    color: red;
-}
-
-#newId{
-    color: yellow;
-} */
-
-
-.title{
-    color:white;
-    font-size: 60px;
+.container{
     text-align: center;
-    background-color: red;
-    font-weight: semi-bold;
-    letter-spacing:10px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    color: white;
 }
 
-.phara{
-    font-size: 19px;
-    font-weight: bold;
-    /* text-transform: uppercase; */
+.heading{
+    font-size: 44px;
+}
 
-    background: yellow;
-    letter-spacing: 3px;
-    line-height: 30px;
-    padding: 20px 30px;
-    margin: 100px;
+.sub_heading{
+    letter-spacing: 10px;
+    margin-bottom: 7px;
+}
+
+.lead{
+    font-size:17px;
+    letter-spacing: 1.1px;
+    line-height: 20px;
+}
+
+.hero_lead{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 14px 0;
+}
+
+
+.button_group{
+    padding: 10px 0;
+}
+
+.btn {
+    padding: 10px 19px;
+    font-size: 15px; 
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.9s ease-in-out;
+}
+
+.btn:hover{
+    border-radius: 5px;
+}
+
+.btn_primary{
+    background-color: white;
+    color: black;
+}
+
+.btn_secondary{
+    background-color: lightblue;
+    color: black;
 }
