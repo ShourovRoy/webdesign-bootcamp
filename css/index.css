@@ -5,6 +5,16 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+.center{
+    text-align: center;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+
 .hero_section{
     /* background: url(../assets/background.jpg); */
     background: linear-gradient(rgba(49, 52, 243, 0.726), rgba(232, 71, 238, 0.733)),url(../assets/background.jpg);
@@ -16,6 +26,11 @@
     align-items: center;
 }
 .container{
+    width: 93%;
+    margin: auto;
+}
+
+.row{
     text-align: center;
     color: white;
 }
@@ -67,4 +82,48 @@
 .btn_secondary{
     background-color: lightblue;
     color: black;
+}
+
+
+/* our service css */
+.our_service{
+    padding: 80px 0;
+}
+
+.service_title{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+.service_option_box{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.option_one{
+    background: rgb(241, 241, 241);
+    padding: 40px 85px;
+    border-radius: 4px;
+}
+
+.option_two{
+    background: rgb(241, 241, 241);
+    padding: 40px 85px;
+    margin: 0 10px;
+    border-radius: 4px;
+}
+
+.option_three{
+    background: rgb(241, 241, 241);
+    padding: 40px 85px;
+    border-radius: 4px;
+}
+
+
+.hover_shadow:hover{
+    background: white;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
 }
