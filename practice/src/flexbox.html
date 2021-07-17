@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+
+    <style>
+        .random{
+            display: flex;
+            background: black;
+            /* justify-content: flex-start; */
+            justify-content: space-around;
+            flex-direction: row;
+            align-items: center;
+            /* align-items: flex-end; */
+            /* align-items: flex-start; */
+            /* align-items: stretch; */
+            flex-wrap: wrap;
+        }
+        .img_random{
+            width: 300px;
+            height: 350px;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- Parent -->
+    <div class="random">
+        <!-- child First div -->
+        <div>
+            <h1 style="color: red;">Hello I am One</h1>
+        </div>
+        <!-- child 2nd div -->
+        <div>
+            <h1 style="color: green;">Hello I am One</h1>
+        </div>
+        <!-- child 3nd div -->
+        <div>
+            <img src="https://images.pexels.com/photos/4640886/pexels-photo-4640886.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="img_random" />
+        </div>
+    </div>
+</body>
+</html>
