@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -15,6 +17,10 @@
     text-align: right;
 }
 
+.white{
+    color: white;
+}
+
 .hero_section{
     /* background: url(../assets/background.jpg); */
     background: linear-gradient(rgba(49, 52, 243, 0.726), rgba(232, 71, 238, 0.733)),url(../assets/background.jpg);
@@ -30,7 +36,7 @@
     margin: auto;
 }
 
-.row{
+.row_one{
     text-align: center;
     color: white;
 }
@@ -42,6 +48,8 @@
 .sub_heading{
     letter-spacing: 10px;
     margin-bottom: 7px;
+    font-family: 'Fuggles', cursive;
+    font-size: 28px;
 }
 
 .lead{
@@ -114,6 +122,7 @@
     padding: 40px 85px;
     margin: 0 10px;
     border-radius: 4px;
+    
 }
 
 .option_three{
@@ -126,4 +135,50 @@
 .hover_shadow:hover{
     background: white;
     box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    border: 2px solid teal;
+}
+
+.option_icon_box{
+    padding: 10px 0;
+    background: black;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    border: 2px solid teal;
+    margin-bottom: 10px;
+}
+
+.fab{
+    font-size: 30px;
+    color: teal;
+    margin: auto;
+    transition: 0.9s ease-in-out;
+}
+
+.fab:hover{
+    color: white;
+}
+
+/* call to action css starts here */
+.call_to_action_section{
+    background: linear-gradient(rgba(232, 71, 238, 0.733),rgba(49, 52, 243, 0.726)),url(../assets/call_to_action_hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.row_two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img_fluid{
+    width: 570px;
+    height: auto;
 }
