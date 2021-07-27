@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Form Design</title>
+   <!-- link css -->
+   <link rel="stylesheet" href="../css/form.css" />
+
+   <!-- style  -->
+   <style>
+       .section, .second_section{
+           padding: 100px 0;
+           display: flex;
+           align-items: center;
+           background-color: orange;
+       }
+   </style>
+
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <!-- Heading title -->
+            <a href="#myImage">
+                <h1>Contact Us</h1>
+            </a>
+            <!-- Form -->
+            <div class="form_box">
+                <form class="form">
+                    <div class="input_box">
+                        <label for="firstname" class="input_lable">Name</label>
+                        <input class="form_input" type="text" name="firtname" id="firstname" placeholder="First Name"/>
+                    </div>
+                    <div class="input_box">
+                        <label class="input_lable">Email</label>
+                        <input class="form_input" type="email" name="email" id="email" placeholder="johndove@example.com"/>
+                    </div>
+                    <div class="input_box">
+                        <label class="input_lable">Message</label>
+                        <textarea class="form_input"  type="text" name="message" id="message" placeholder="Write your message..." rows="6"></textarea>
+                    </div>
+
+                    <!-- submit button -->
+                    <div class="form_button_box">
+                        <button type="submit">SEND MESSAGE</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section style="background-color: black;" class="second_section">
+        <div class="container">
+            <img id="myImage" src="https://images.pexels.com/photos/1170412/pexels-photo-1170412.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="500" height="auto" alt="some picture" />
+        </div>
+    </section>
+</body>
+</html>

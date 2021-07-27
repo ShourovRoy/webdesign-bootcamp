@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1400px;
+    width: 96%;
+    margin:auto;
+}
+
+.container > a > h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: semi-bold;
+    padding: 10px 0;
+}
+
+a{
+    text-decoration:none;
+    color: white;
+    
+}
+
+.form_box{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("https://images.pexels.com/photos/1170412/pexels-photo-1170412.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 7px;
+    padding: 40px 5px;
+    width: 50%;
+    margin: auto;
+}
+
+.form{
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.input_box{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+}
+
+.input_lable{
+    color: black;
+    font-weight: 500;
+
+}
+
+.form_input{
+    padding: 10px 14px;
+    border: none;
+    outline: none;
+    background: rgb(224, 220, 220);
+    border-radius: 4px;
+    margin-top: 7px;
+}
+
+.form_button_box{
+    padding: 10px 0;
+    text-align: right;
+}
+
+.form_button_box > button {
+    padding: 8px;
+    background: rgb(50, 50, 255);
+    border: none;
+    outline: none;
+    color: white;
+}
