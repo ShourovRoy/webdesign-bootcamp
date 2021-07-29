@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero_section{
+    padding: 120px 0;
+    background: orange;
+}
+
+h1{
+    font-size: 50px;
+    color: blue;
+}
+
+/* @media screen and (min-width: 817px){ 
+    h1{
+        font-size: 70px;
+    }
+} */
+
+
+
+/* @media screen and (max-width: 817px) {
+    .hero_section{
+        background: teal;
+    }
+    h1{
+        font-size: 46px;
+        color: red;
+    }
+}
+
+@media screen and (max-width: 471px) {
+    .hero_section{
+        background: rgb(113, 85, 240);
+    }
+    h1{
+        font-size: 35px;
+        color: green;
+    }
+} */
